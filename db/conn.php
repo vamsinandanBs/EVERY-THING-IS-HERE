@@ -9,7 +9,7 @@
     //Remote Database Connection
     $dsn = "mysql: host=localhost; dbname=attendance_db";
     try{
-        $pdo = new PDO($dsn,'root','142840');
+        $pdo = new PDO($dsn,'root..','password');
 
     } catch(PDOException $e) {
         throw new PDOException($e->getMessage());
