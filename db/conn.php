@@ -7,7 +7,7 @@
     // $charset = 'utf8mb4';
 
     //Remote Database Connection
-    $dsn = "mysql: host=localhost; dbname=attendance_db";
+    $dsn = "mysql: host=hostname..localhost; dbname=databasename..";
     try{
         $pdo = new PDO($dsn,'root..','password');
 
